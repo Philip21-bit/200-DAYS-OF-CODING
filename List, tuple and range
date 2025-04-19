@@ -1,0 +1,15 @@
+#LIST
+my_list = [1, 2, 3, 4]
+my_list.append(5)  # Adds 5 to the end
+my_list[1] = 10    # Changes the second item to 10
+print(my_list)     # Output: [1, 10, 3, 4, 5]
+
+#TUPLE
+my_tuple = (1, 2, 3)
+# my_tuple[0] = 10  # ❌ This will cause an error
+print(my_tuple)     # Output: (1, 2, 3)
+
+#RANGE
+for i in range(5):
+    print(i)
+#it prints value from 0-4
